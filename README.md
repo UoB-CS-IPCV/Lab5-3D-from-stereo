@@ -12,7 +12,7 @@ Python code and lab sheet for lab class 5 on stereo. Details on how to run the c
 
   <li> Install open3d: <tt> pip install open3d</tt> or <tt> conda install -c open3d-admin open3d</tt>
 
-  <li> Run the simulator: <tt> python LabI-v1.py</tt>
+  <li> Run the simulator: <tt> python LabI-v1.py</tt> (if error, then try <tt> python LabI-v2.py</tt>)
   </ol>
 
 
