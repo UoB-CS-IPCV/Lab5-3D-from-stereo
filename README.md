@@ -8,9 +8,9 @@ Python code and lab sheet for lab class 5 on stereo. Details on how to run the c
 
   <li> Activate the virtual environment: <tt> conda activate ipcv</tt>
 
-  <li> Install opencv: <tt> pip install opencv-python</tt>
+  <li> Install opencv: <tt> pip install opencv-python</tt> or <tt> conda install -c menpo opencv </tt>
 
-  <li> Install open3d: <tt> pip install open3d</tt>
+  <li> Install open3d: <tt> pip install open3d</tt> or <tt> conda install -c open3d-admin open3d</tt>
 
   <li> Run the simulator: <tt> python LabI-v1.py</tt>
   </ol>
@@ -18,4 +18,4 @@ Python code and lab sheet for lab class 5 on stereo. Details on how to run the c
 
 ## Troubleshooting
 
-On Mac, you might need to install the libomp `brew install libomp`
+On Mac, you might need to install LLVM's OpenMP runtime library `brew install libomp`
