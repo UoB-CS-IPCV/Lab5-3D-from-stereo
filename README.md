@@ -14,3 +14,8 @@ Python code and lab sheet for lab class 5 on stereo. Details on how to run the c
 
   <li> Run the simulator: <tt> python LabI-v1.py</tt>
   </ol>
+
+
+## Troubleshooting
+
+On Mac, you might need to install the libomp `brew install libomp`
