@@ -27,3 +27,7 @@ You may want to use the following recommended versions for certain packages if y
 ## Troubleshooting
 
 On Mac, you might need to install LLVM's OpenMP runtime library `brew install libomp`
+If you face the problem regrading libomp please try 'brew reinstall libomp'.
+
+Please check the version of python == 3.8 or 3.9 first and make sure your anaconda environment works. If not and your python is under $(pyenv root)/versions/ , please remove .pyenv and reinstall homebrew, as well. Please see link (https://stackoverflow.com/questions/51797189/how-to-uninstall-pyenvinstalled-by-homebrew-on-mac).
+
