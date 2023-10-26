@@ -12,7 +12,7 @@ If you are on a Linux system like Ubuntu:
 
   <li> Install opencv: <tt> pip install opencv-python</tt> or <tt> conda install -c menpo opencv </tt>
 
-  <li> Install open3d: <tt> pip install open3d</tt> or <tt> conda install -c open3d-admin open3d</tt>
+  <li> Install open3d: <tt> pip install open3d==0.16.0</tt> or <tt> conda install -c open3d-admin open3d</tt>
 
   <li> Run the simulator: <tt> python LabI-v1.py</tt> (if error, then try <tt> python LabI-v2.py</tt>)
   </ol>
