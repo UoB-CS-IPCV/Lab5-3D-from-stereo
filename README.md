@@ -26,6 +26,8 @@ You may want to use the following recommended versions for certain packages if y
 
 ## Troubleshooting
 
+If open3d==0.16.0 doesn't work, try install older version, e.g. <tt>pip install open3d==0.14.1</tt>.
+
 On Mac, you might need to install LLVM's OpenMP runtime library `brew install libomp`
 If you face the problem regrading libomp please try 'brew reinstall libomp'.
 
